@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Energy Consumption Predictor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: 500;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            margin-top: 25px;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Energy Consumption Predictor</h2>
+        <form action="/predict" method="post">
+            <label>Building Type (Residential / Commercial):</label>
+            <input type="text" name="building_type" required>
+
+            <label>Square Footage:</label>
+            <input type="number" name="square_footage" required>
+
+            <label>Number of Occupants:</label>
+            <input type="number" name="occupants" required>
+
+            <label>Number of Appliances Used:</label>
+            <input type="number" name="appliances" required>
+
+            <label>Average Temperature (°C):</label>
+            <input type="number" step="0.1" name="temperature" required>
+
+            <label>Day of Week (Weekday / Weekend):</label>
+            <input type="text" name="day_of_week" required>
+
+            <input type="submit" value="Predict">
+        </form>
+
+        <div class="footer">
+            ✨ Powered by Flask + Machine Learning
+        </div>
+    </div>
+</body>
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Energy Consumption Predictor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: 500;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            margin-top: 25px;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Energy Consumption Predictor</h2>
+        <form action="/predict" method="post">
+            <label>Building Type (Residential / Commercial):</label>
+            <input type="text" name="building_type" required>
+
+            <label>Square Footage:</label>
+            <input type="number" name="square_footage" required>
+
+            <label>Number of Occupants:</label>
+            <input type="number" name="occupants" required>
+
+            <label>Number of Appliances Used:</label>
+            <input type="number" name="appliances" required>
+
+            <label>Average Temperature (°C):</label>
+            <input type="number" step="0.1" name="temperature" required>
+
+            <label>Day of Week (Weekday / Weekend):</label>
+            <input type="text" name="day_of_week" required>
+
+            <input type="submit" value="Predict">
+        </form>
+
+        <div class="footer">
+            ✨ Powered by Flask + Machine Learning
+        </div>
+    </div>
+</body>
+</html>
